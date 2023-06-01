@@ -1,0 +1,18 @@
+body{
+    font-family: KyivType Sans, sans-serif;
+}
+ul {
+    list-style-type: none;
+    color: #503D3F;
+    font-weight: 500;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a>p {
+    margin: 0;
+}

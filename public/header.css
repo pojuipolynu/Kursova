@@ -1,0 +1,78 @@
+
+.logo {
+    width: 175px;
+    height: 49px;
+}
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 13px;
+    justify-content:space-between;
+}
+.ones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9.7%;
+    margin-right: 9.7%;
+}
+.butt, .buttlan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 48px; 
+    cursor: pointer;
+    background-color: #503D3F;
+    color: #D6CBC1;
+    width: 45px;
+    height: 44px;
+    font-size: 24px;
+    border-radius: 8px;
+}
+.butt4{
+    font-size: 24px;
+}
+@media screen and (max-width: 1190px) {
+    .butt4{
+        display: none;
+    }
+    .logo{
+        order: 2;
+    }
+    .buttlan{
+        margin-right: 48px;
+    }
+    
+}
+@media screen and (max-width: 960px){
+    .logo {
+        width: 124px;
+        height: 34px;
+        margin-left: 32px;
+    }
+    .butt, .buttlan{
+        width: 34px;
+        height: 34px;
+        font-size: 16px;
+        border-radius: 4px;
+    }
+    .butt{
+        margin: 0px 0px 0px 32px; 
+    }
+    .buttlan{
+        margin:0;
+    }
+}
+@media screen and (max-width: 540px){
+    .logo{
+        margin-left: 7px;
+    }
+    .butt, .buttlan{
+        width: 30px;
+        height: 30px;
+    }
+    .butt{
+        margin: 0px 0px 0px 7px; 
+    }
+}

@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D6CBC1;
+    font-family: KyivType Sans, sans-serif;
+    font-weight: 600;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    color: #503D3F;
+    font-weight: 500;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.message{
+    font-size: 34px;
+    color: #503D3F;
+    text-align: center;
+    margin-top:150px;
+    margin-bottom:150px;
+    margin-left: 9.7%;
+    margin-right: 9.7%;
+}
